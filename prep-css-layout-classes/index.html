@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    img {
+      width: 100%;
+      height: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+
+  <h1>
+    Indiana Jones
+  </h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/crusade.jpg" alt="crusade">
+        <h3>
+          The Last Crusade
+        </h3>
+        <p>
+          Indiana Jones and the Last Crusade is a 1989 American action-adventure film directed by Steven Spielberg, from a story
+          co-written by executive producer George Lucas. It is the third installment in the Indiana Jones franchise and a sequel
+          to Raiders of the Lost Ark (1981). Harrison Ford returned in the title role, while his father is portrayed by Sean
+          Connery. Other cast members featured include Alison Doody, Denholm Elliott, Julian Glover, River Phoenix, and John
+          Rhys-Davies.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/raiders.jpg" alt="raiders">
+        <h3>
+          Raiders of the Lost Ark
+        </h3>
+        <p>
+          Raiders of the Lost Ark is a 1981 American action-adventure film directed by Steven Spielberg and written by Lawrence
+          Kasdan, based on a story by George Lucas and Philip Kaufman. It stars Harrison Ford, Karen Allen, Paul Freeman, Ronald
+          Lacey, John Rhys-Davies, and Denholm Elliott. Ford portrays Indiana Jones, a globe-trotting archaeologist vying with
+          Nazi German forces in 1936 to recover the long-lost Ark of the Covenant, a relic said to make an army invincible.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" alt="temple">
+        <h3>
+          The Temple of Doom
+        </h3>
+        <p>
+          Indiana Jones and the Temple of Doom is a 1984 American action-adventure film directed by Steven Spielberg. It is the
+          second installment in the Indiana Jones franchise, and a prequel to the 1981 film Raiders of the Lost Ark, featuring
+          Harrison Ford who reprises his role as the title character. Kate Capshaw, Amrish Puri, Roshan Seth, Philip Stone, and Ke
+          Huy Quan star in supporting roles.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
